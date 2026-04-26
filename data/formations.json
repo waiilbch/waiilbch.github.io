@@ -1,0 +1,23 @@
+[
+  {
+    "periode": "2024 — Présent",
+    "etablissement": "Lycée professionnel",
+    "titre": "BTS SIO — option SLAM",
+    "description": "Formation aux solutions logicielles et applications métiers. Développement web, bases de données, programmation orientée objet, gestion de projets.",
+    "actif": true
+  },
+  {
+    "periode": "2021 — 2024",
+    "etablissement": "Université Orléans",
+    "titre": "Double Licence Droit - Economie/Gestion",
+    "description": "Deuxième année de licence avant réorientation vers l'informatique.",
+    "actif": false
+  },
+  {
+    "periode": "2021",
+    "etablissement": "Lycée général et technologique François Villon",
+    "titre": "Baccalauréat Général",
+    "description": "Baccalauréat général obtenu. Spécialités : Mathématiques, Physique-Chimie, Sciences de l'Ingénieur.",
+    "actif": false
+  }
+]

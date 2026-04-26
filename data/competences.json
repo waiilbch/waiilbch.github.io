@@ -1,0 +1,14 @@
+[
+  { "nom": "HTML / CSS", "icone": "fa-brands fa-html5", "couleur": "#E44D26", "lien": "https://developer.mozilla.org/fr/docs/Web/HTML" },
+  { "nom": "JavaScript", "icone": "fa-brands fa-js", "couleur": "#F7DF1E", "lien": "https://developer.mozilla.org/fr/docs/Web/JavaScript" },
+  { "nom": "PHP", "icone": "fa-brands fa-php", "couleur": "#777BB3", "lien": "https://www.php.net/" },
+  { "nom": "Python", "icone": "fa-brands fa-python", "couleur": "#3776AB", "lien": "https://www.python.org/" },
+  { "nom": "SQL / MySQL", "icone": "fa-solid fa-database", "couleur": "#00758F", "lien": "https://www.mysql.com/" },
+  { "nom": "Bootstrap", "icone": "fa-brands fa-bootstrap", "couleur": "#7952B3", "lien": "https://getbootstrap.com/" },
+  { "nom": "Git", "icone": "fa-brands fa-git-alt", "couleur": "#F05032", "lien": "https://git-scm.com/" },
+  { "nom": "Linux", "icone": "fa-brands fa-linux", "couleur": "#FCC624", "lien": "https://www.linux.org/" },
+  { "nom": "Java", "icone": "fa-brands fa-java", "couleur": "#ED8B00", "lien": "https://www.java.com/" },
+  { "nom": "Symfony", "icone": "fa-brands fa-symfony", "couleur": "#000000", "lien": "https://symfony.com/" },
+  { "nom": "AGILE / Scrum", "icone": "fa-solid fa-arrows-spin", "couleur": "#0052CC", "lien": "https://www.scrum.org/" },
+  { "nom": "VirtualBox", "icone": "fa-solid fa-box", "couleur": "#183A61", "lien": "https://www.virtualbox.org/" }
+]

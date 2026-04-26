@@ -1,0 +1,26 @@
+[
+  {
+    "nom": "Certificat Voltaire",
+    "domaine": "Français",
+    "description": "Maîtrise de l'orthographe et de la grammaire françaises",
+    "couleur": "#6366F1",
+    "initiale": "V",
+    "fichier": "docs/voltaire.pdf"
+  },
+  {
+    "nom": "Certificat Pix",
+    "domaine": "Numérique",
+    "description": "Compétences numériques certifiées par la plateforme Pix",
+    "couleur": "#22C55E",
+    "initiale": "P",
+    "fichier": "docs/certification-pix.pdf"
+  },
+  {
+    "nom": "SecNumAcadémie",
+    "domaine": "Cybersécurité",
+    "description": "Sensibilisation à la cybersécurité — ANSSI",
+    "couleur": "#F43F5E",
+    "initiale": "S",
+    "fichier": "docs/Secnum.pdf"
+  }
+]

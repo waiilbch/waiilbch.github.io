@@ -1,0 +1,20 @@
+[
+  {
+    "titre": "CheckMyStars",
+    "tag": "Web App",
+    "couleurTag": "#6366F1",
+    "description": "Outil d'évaluation de meublés de tourisme, hôtels, auberges collectives, campings et résidences de tourisme en fonction de critères d'évaluation officiels.",
+    "technologies": ["twig", "Symfony", "PHP", " CSS", "MYSQL"],
+    "lien": "#",
+    "image": "pictures/checkmystars.png"
+  },
+  {
+    "titre": "ACABA",
+    "tag": "Web App",
+    "couleurTag": "#0EA5E9",
+    "description": "Outil gérant les entrées pour les stagiaires dans les locaux du CNFPT lors de leurs formations, permettant de suivre les présences et d'assurer la sécurité des lieux.",
+    "technologies": ["PHP", "JS", "BOOTSTRAP", "MARIADB", "ORACLE"],
+    "lien": "#",
+    "image": "pictures/cnfpt.png"
+  }
+]
