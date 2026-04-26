@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio — BTS SIO</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Styles locaux -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="#">Mon Portfolio</a>
+    <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Menu">
+      <span class="navbar-toggler-icon" style="filter:invert(1)"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto me-4 gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bts">BTS SIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#veille">Veille</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+      </ul>
+      <a href="#contact" class="btn-contact-nav">Me contacter</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="container text-center">
+    <div class="hero-badge mx-auto">
+      <div class="dot"></div>
+      <span>BTS SIO · Étudiant en alternance</span>
+    </div>
+    <h1 class="hero-title">Bonjour, je suis<br><span style="color:#a5b4fc">Waïl BOUCHLAGHEM</span></h1>
+    <p class="hero-sub mx-auto">
+      Étudiant en BTS SIO, passionné par le développement et les solutions informatiques.
+      Je conçois des expériences digitales modernes et efficaces.
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap hero-ctas">
+      <a href="#projets" class="btn-primary-hero">Voir mes projets</a>
+      <a href="docs/cv.pdf" target="_blank" class="btn-secondary-hero">Télécharger mon CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     À PROPOS
+════════════════════════════════════════════════════ -->
+<section id="about" class="py-5">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="section-tag">À PROPOS DE MOI</span>
+        <h2 class="section-title">Futur professionnel<br>de l'informatique</h2>
+        <p class="mb-3" style="color:#64748b;line-height:1.7">
+          Je suis actuellement en BTS SIO, spécialité SLAM. Passionné par le développement,
+          je cherche à créer des solutions informatiques utiles et bien conçues.
+        </p>
+        <p style="color:#64748b;line-height:1.7">
+          En dehors des cours, je travaille sur des projets personnels et je me forme
+          continuellement aux nouvelles technologies.
+        <div class="d-flex gap-5 mt-4">
+          <div>
+            <div class="about-stat-num">2 ans</div>
+            <div class="about-stat-lbl">de formation</div>
+          </div>
+          <div>
+            <div class="about-stat-num">2026</div>
+            <div class="about-stat-lbl">diplôme prévu</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about-photo"><img src="pictures/moi.jpeg" alt="Ma photo" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     BTS SIO
+════════════════════════════════════════════════════ -->
+<section id="bts" class="py-5">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <span class="section-tag">BTS SIO</span>
+      <h2 class="section-title">Qu'est-ce que le BTS SIO ?</h2>
+      <p class="section-sub mx-auto">
+        Le Brevet de Technicien Supérieur Services Informatiques aux Organisations forme
+        des techniciens capables de gérer et développer des solutions informatiques pour les entreprises.
+      </p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="bts-card bts-card-slam h-100">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <div class="bts-card-icon" style="background:rgba(255,255,255,.2);color:#fff">&lt;/&gt;</div>
+            <span class="bts-badge" style="background:rgba(255,255,255,.2);color:#fff">SLAM</span>
+          </div>
+          <h3 style="font-size:1.375rem;font-weight:700;color:#fff;margin-bottom:16px">
+            Solutions Logicielles<br>et Applications Métiers
+          </h3>
+          <p style="color:#c7d2fe;font-size:.9375rem;line-height:1.6;margin:0">
+            Développement d'applications, bases de données, programmation,
+            conception de logiciels métiers et gestion de projet.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bts-card bts-card-sisr h-100">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <div class="bts-card-icon" style="background:#eef2ff;color:#6366f1;font-size:.75rem;font-weight:700">NET</div>
+            <span class="bts-badge" style="background:#eef2ff;color:#6366f1">SISR</span>
+          </div>
+          <h3 style="font-size:1.375rem;font-weight:700;color:#0f172a;margin-bottom:16px">
+            Solutions d'Infrastructure,<br>Systèmes et Réseaux
+          </h3>
+          <p style="color:#64748b;font-size:.9375rem;line-height:1.6;margin:0">
+            Administration de réseaux, sécurité informatique,
+            gestion des serveurs et des infrastructures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FORMATION
+════════════════════════════════════════════════════ -->
+<section id="formation" class="py-5">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <span class="section-tag">MA FORMATION</span>
+      <h2 class="section-title">Mon parcours</h2>
+    </div>
+    <div class="timeline" id="timeline-container">
+      <!-- Injecté par JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     COMPÉTENCES
+════════════════════════════════════════════════════ -->
+<section id="competences" class="py-5">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <span class="section-tag">COMPÉTENCES</span>
+      <h2 class="section-title">Mes technologies</h2>
+      <p class="section-sub mx-auto">Les outils et langages que j'utilise au quotidien</p>
+    </div>
+    <div class="row g-3" id="skills-grid">
+      <!-- Injecté par JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     CERTIFICATIONS
+════════════════════════════════════════════════════ -->
+<section id="certifications" class="py-5">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <span class="section-tag">CERTIFICATIONS</span>
+      <h2 class="section-title">Mes certifications</h2>
+    </div>
+    <div class="row g-4" id="certifs-grid">
+      <!-- Injecté par JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     VEILLE TECHNOLOGIQUE
+════════════════════════════════════════════════════ -->
+<section id="veille" class="py-5">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <span class="veille-tag">VEILLE TECHNOLOGIQUE</span>
+      <h2 class="section-title" style="color:#fff">Informatique Quantique</h2>
+      <p class="section-sub mx-auto" style="color:#94a3b8">
+        Suivez les dernières actualités sur l'informatique quantique : qubits, algorithmes,
+        cryptographie post-quantique et avancées des grands laboratoires.
+      </p>
+    </div>
+
+    <!-- Barre de recherche -->
+    <div class="d-flex gap-3 mb-3">
+      <input type="text" id="veille-search" class="veille-search-bar"
+             placeholder="Rechercher : qubit, cryptographie, IBM Quantum, Google…">
+      <button id="veille-btn" class="btn-veille-search">
+        <i class="fa-solid fa-magnifying-glass me-2"></i>Rechercher
+      </button>
+    </div>
+    <div class="d-flex align-items-center justify-content-between mb-4 flex-wrap gap-2">
+      <div class="rss-indicator">
+        <div class="rss-dot"></div>
+        <span>Flux RSS actif — Science Daily · Phys.org · MIT News · Quanta Magazine</span>
+      </div>
+      <span id="veille-counter" style="font-size:.8125rem;color:#475569"></span>
+    </div>
+
+    <!-- Loader -->
+    <div id="veille-loader" class="d-flex justify-content-center align-items-center py-5" style="display:none!important">
+      <div class="spinner-border text-purple" role="status" style="color:#7c3aed;width:2.5rem;height:2.5rem"></div>
+      <span class="ms-3" style="color:#64748b">Chargement des articles…</span>
+    </div>
+
+    <!-- Articles -->
+    <div class="d-flex flex-column gap-3" id="veille-articles"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     PROJETS
+════════════════════════════════════════════════════ -->
+<section id="projets" class="py-5">
+  <div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-5 flex-wrap gap-3">
+      <div>
+        <span class="section-tag">PROJETS</span>
+        <h2 class="section-title mb-0">Mes réalisations</h2>
+      </div>
+    </div>
+    <div class="row g-4" id="projets-grid">
+      <!-- Injecté par JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     CONTACT
+════════════════════════════════════════════════════ -->
+<section id="contact" class="py-5">
+  <div class="container py-5 text-center">
+    <span class="section-tag">CONTACT</span>
+    <h2 class="section-title" style="color:#fff">Travaillons ensemble</h2>
+    <p class="section-sub mx-auto mb-5" style="color:#94a3b8">
+      Une opportunité de stage, d'alternance ou un projet à réaliser ? Je suis disponible !
+    </p>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 col-lg-3">
+        <a href="mailto:wailbouchlaghem1@gmail.com" class="contact-card">
+          <div class="contact-icon" style="background:#6366f1"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contact-label">Email</div>
+          <div class="contact-val">wailbouchlaghem1@gmail.com</div>
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3">
+        <a href="https://www.linkedin.com/in/waiilbch/" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon" style="background:#0ea5e9"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-val">https://www.linkedin.com/in/waiilbch/</div>
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3">
+        <a href="https://github.com/waiilbch" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon" style="background:#22c55e"><i class="fa-brands fa-github"></i></div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-val">https://github.com/waiilbch</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <span>© <span id="footer-year"></span> Mon Portfolio · BTS SIO</span>
+    <span>Fait par Waïl BOUCHLAGHEM</span>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
